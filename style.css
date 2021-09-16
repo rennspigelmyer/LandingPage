@@ -1,0 +1,332 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,400;0,700;1,100&display=swap'); 
+
+
+:root {
+    background-color: rgb(0, 0, 0);
+    color: lightgray;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Raleway', sans-serif;
+    margin: 0%;
+    padding: 0;
+    text-align: center;
+}
+h3 {
+    color: lightgray;
+    z-index: 3;
+    text-align: center;    
+}
+/* img {
+    /*border: 10px solid rgb(0, 0, 0);*/   
+
+
+.resize {
+    width: 100%;
+    height: 400px;
+}
+
+#banner {
+    border: 60px solid rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, .60);
+    position: fixed;
+    width: 90%;
+    z-index: 2;
+    /* padding: 10px 0px; */
+}
+
+#banner h3 {
+    border: none;
+}
+
+/* Heading Text */
+h1 {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: 400%;
+}
+h2 {
+    text-align: center;
+}
+
+p {
+    margin: 50px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+/* Navigation Bar */
+section {
+    border: 1px solid rgb(7, 56, 79);
+    background-color: rgb(7, 56, 79);
+    padding: 0;
+    /* opacity: 0.7;*/
+    border-radius: 5%;
+    /* margin: 30px; */
+    margin: 0;
+    margin-right: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 20px;
+    align-self: center;
+    flex-direction: row-reverse;
+    justify-content: center;    
+}
+
+
+#houses {
+    font-size: 20px;
+    margin: 10px;
+    border: 2px solid rgb(7, 56, 79);
+    background-color: black;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: silver;
+    border-radius: 50px;
+    opacity: 0.7;
+    text-decoration: none;
+    
+}
+
+ #planets {
+     
+     font-size: 20px;
+     margin: 10px;
+     border: 2px solid rgb(7, 56, 79);
+     background-color: black;
+     padding-left: 30px;
+     padding-right: 30px;
+     padding-top: 5px;
+     padding-bottom: 5px;
+     color: lightgray;
+     border-radius: 50px;
+     opacity: 0.7;
+     text-decoration: none;
+}
+#signs {
+   
+    font-size: 20px;
+    margin: 10px;
+    border: 2px solid rgb(7, 56, 79);
+    background-color: black;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: lightgray;
+    border-radius: 50px;
+    opacity: 0.7;
+    text-decoration: none;
+}
+#aspects {
+    font-size: 20px;
+    margin: 10px;
+    border: 2px solid rgb(7, 56, 79);
+    background-color: black;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: lightgray;
+    border-radius: 50px;
+    opacity: 0.7;
+    text-decoration: none;
+
+}
+#transits {
+    font-size: 20px;
+    margin: 10px;
+    border: 2px solid rgb(7, 56, 79);
+    background-color: black;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: lightgray;
+    border-radius: 50px;
+    opacity: 0.7;
+    text-decoration: none;
+
+}
+
+#blog {
+    margin-top: 150px;
+    margin-bottom: -200px;
+    text-align: center;
+}
+#natal {
+    text-decoration: none;
+    color: rgb(126, 96, 158);
+
+}
+
+
+/* Line above email */
+#line {
+    margin: 100px;
+    border-top: 2px solid rgb(7, 56, 79);
+    opacity: 0.7;
+    border-radius: 50px;
+}
+
+#line1 {
+    margin-top: -100px;
+    margin-bottom: 250px;
+    margin-right: 100px;
+    margin-left: 100px;
+    border-top: 2px solid rgb(7, 56, 79);
+    opacity: 0.7;
+    border-radius: 50px;
+}
+/* Email Box */
+form {
+    font-size: 30px;
+    color: lightgray;
+    text-align: center;
+}
+
+
+/* #email {
+    box-sizing: border-box;
+    background-color: black;
+    padding: 0%;
+    color: hotpink;
+} */
+
+/* ::placeholder {
+    background-color: black;
+    color: lightgray;    */
+
+section {
+    position: sticky;
+      top: 65px;
+      /* Could be 1, 3000, or any other number other than 0. */
+      z-index: 3;
+} 
+
+#paragraphbottom {
+    margin-top: -150px;
+}
+
+#footer {
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-top: 10%;
+    margin-bottom: 15%;
+}
+
+#footer h2 {
+    border: none;
+}
+
+#footerbutton {
+    display: flex;
+    background-color: rgb(126, 96, 158);
+    color: lightgray;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 75px;
+    margin-left: 38%;
+    margin-right: 38%;
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;
+}
+
+#copyright {
+    text-align: center;
+}
+
+
+
+/*   Below is Calculator CSS   */
+
+body {
+    background-color: black;
+    color: lightgray;
+}
+
+
+h1 {
+    /* border: 2px solid orange; */
+    /* border-radius: 40px; */
+    border-radius: 2px;
+    
+ }
+ h2 {
+    border: 2px solid rgb(7, 56, 79);;
+     border-radius: 2px;
+ }
+ h3 {
+     border: 2px solid rgb(7, 56, 79);
+     border-radius: 2px;
+ }
+ /* p {
+    border: 2px solid rgb(7, 56, 79);;
+     border-radius: 40px; */
+ 
+ #result,#result2,#result3 {
+     /*: 150px;*/
+     height: 50px;
+     margin-top: 10px;
+     font-size: 30pt;
+     border-radius: 8px;
+     /* background-color: lightgray; */
+     background-color: rgb(7, 56, 79);;
+     border: 2px solid rgb(7, 56, 79);;
+     text-align: center;
+    
+ }
+ #submit{
+    color: lightgray; 
+    background-color: rgb(7, 56, 79);
+    height: 64px;
+    width: 124px;
+    font-size: 16pt;
+    border-radius: 20px;
+    border: 0px;
+ }
+ #submit:hover {
+    background: rgb(7, 56, 79);
+    color: white;
+    border-color: black;
+    border-radius: 40px;
+    height: 94px;
+    width: 184px;
+ }
+ #Zodiac{
+    text-align: center;
+    /* border:10px solid rgb(7, 56, 79); */
+    padding: 4px;
+    border-radius: 40px;
+    margin: 20%;
+     
+ }
+ input[type = text] {
+    width: 310px;
+    height: 40px;
+    margin-left:20px;
+    background-color: silver;
+    font-size: 18pt;
+    text-align: center;
+    border-radius: 40px;
+ }
+ #month,#day {
+    width: 310px;
+    height: 40px;
+    margin-left:20px;
+    /* background-color: silver; */
+    background-color: lightgray;
+    font-size: 18pt;
+    border-radius: 40px;
+ }
+
+
+
+ 
+
+
+
+/* Fix Borders */
